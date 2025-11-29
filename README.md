@@ -3,35 +3,25 @@
 ## AIM
 To develop a convolutional autoencoder for image denoising application.
 
-## THEORY
-
-
-## Neural Network Model
-Include the neural network model diagram.
-
 ## DESIGN STEPS
-### STEP 1: 
 
-Write your own steps
+### STEP 1: 
+Load MNIST data and add noise to images.
 
 ### STEP 2: 
-
-
+Build a convolutional autoencoder.
 
 ### STEP 3: 
-
-
+Train the model with noisy images, minimizing MSE loss.
 
 ### STEP 4: 
-
-
+Update weights using backpropagation.
 
 ### STEP 5: 
-
-
+Test the model and visualize original, noisy, and denoised images.
 
 ### STEP 6: 
-
+Repeat through multiple epochs for better denoising performance.
 
 
 
@@ -206,3 +196,4 @@ visualize_denoising(model, test_loader)
 
 
 ## RESULT
+Thus the program has been executed successfully.
